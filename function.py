@@ -10,8 +10,7 @@
 def computepay(hours,rph):
     if(hours>40):
         hours = hours - 40
-        ans = 1.5*(hours*rph) + (40*rph)
-        return ans
+        return 1.5*(hours*rph) + (40*rph)
     else:
         return (hours*rph)
 
