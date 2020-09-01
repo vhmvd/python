@@ -31,7 +31,8 @@ print("Hey There".capitalize())
 #searching a string for position
 position = anyString.find("sT")
 print(position)
-#not found = -1
+
+#output -1 when not found
 position = anyString.find("z")
 print(position)
 
@@ -44,5 +45,5 @@ print(anyString.startswith('RandO'))
 print(anyString.startswith('Rando'))
 
 #Shows available manipulation methods in chevron prompt
-type(anyString)
-dir(anyString)
+#type(anyString)
+#dir(anyString)
