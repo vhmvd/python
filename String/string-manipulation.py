@@ -1,9 +1,3 @@
-""" 
-Personal Notes
-Ahmed Nadeem
-ahmed210899@gmail.com
-"""
-
 #Lower case is > upper case a>A in string comparison
 
 
@@ -13,8 +7,14 @@ anyString = 'RandOm sTrinG'
 zap = anyString.lower()
 print(zap)
 
-#Print in specified range
+#Print in specified range also called string splicing
 print(anyString[2:7])
+
+#from 0 to a specific range
+print(anyString[:4])
+
+#from a specific range to the end
+print(anyString[4:])
 
 #Alternative Method
 print(anyString.lower())
