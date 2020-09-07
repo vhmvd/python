@@ -1,4 +1,4 @@
-
+#curly braces makes for dictionary
 #init key value pair obj with the contructor
 bag = dict()
 
