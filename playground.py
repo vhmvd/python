@@ -1,2 +1,2 @@
-stuff = dict()
-print(stuff['candy'])
+days = ('Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun')
+print(days[2])
