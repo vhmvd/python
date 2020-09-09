@@ -14,3 +14,4 @@ for index in sports:
         last = last + index
 
 print(last)
+print(size)
