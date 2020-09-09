@@ -22,8 +22,8 @@ for _ in range(30):             # start with size = 5 and grow by 2
         tess.right(24)          # and turn
         dist = dist + 2
     else:
-        tess.stamp()            # leave an impression on the canvas
         tess.forward(dist)      # move tess along
+        tess.stamp()            # leave an impression on the canvas
         tess.right(24)          # and turn
         dist = dist + 2
 wn.exitonclick()
