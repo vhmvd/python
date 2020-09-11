@@ -13,3 +13,8 @@ print(a1 is b1) #a1 is not b1 because they are at different location in memory
 print(a1 == b1)
 print(hex(id(a1)))
 print(hex(id(b1)))
+
+b1 = a1
+print(a1 is b1)
+print(hex(id(a1)))
+print(hex(id(b1)))
