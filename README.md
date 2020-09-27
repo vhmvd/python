@@ -1,2 +1,2 @@
 # py4e
-This repo includes my notes, exercises and experiment with Python.
+This repo includes my notes, exercises and experimentation with Python.
