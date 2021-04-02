@@ -5,8 +5,8 @@ import boto3
 
 s3client = boto3.client(
 's3',
-aws_access_key_id="AKIAI6275XY4QXOTQPFA",
-aws_secret_access_key="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",
+aws_access_key_id="",
+aws_secret_access_key="",
 )
 
 

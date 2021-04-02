@@ -2,8 +2,8 @@ import boto3
 import json
 
 # Access keys to access the data buckets
-ACCESS_KEY        = "AKIASUMBPHIPY6DLZ4C5"
-SECRET_ACCESS_KEY = "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"
+ACCESS_KEY        = ""
+SECRET_ACCESS_KEY = ""
 
 # Authentication
 client = boto3.client('s3', aws_access_key_id=ACCESS_KEY, aws_secret_access_key=SECRET_ACCESS_KEY)
