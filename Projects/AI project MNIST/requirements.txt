@@ -1,4 +1,4 @@
 opencv_python==4.5.2.52
 numpy==1.22.0
 keras_nightly==2.5.0.dev2021032900
-keras==2.13.1
+keras==3.9.0
